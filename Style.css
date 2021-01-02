@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px ;
+    font-family: Segoe Print;
+    
+}
+body{
+    text-align: center;
+    
+}
+h1{
+    font-size: 3.5em;
+    margin-bottom:30px;
+    margin-top: 20px;
+}
+#result{
+    width: 300px;
+    height: 70px;
+}
+.main{
+
+    border: 1px solid black;
+    width: 300px;
+    margin: 0 auto;
+
+}
+#clear{
+    width: 300px;
+    font-size: 18px;
+}
+ 
+td{
+    width: 75px;
+    background-color: grey;
+    padding: 20px;
+    font-size: 25px;
+    font-weight: bold;
+}
+.bodyin{
+
+    background-color: darkgray;
+
+}

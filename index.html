@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+
+<body>
+    <h1>Calculator</h1>
+    <div class="main">
+
+        <header class="headerr">
+            <input type="text" id="result">
+        </header>
+        <div class="bodyhead">
+            <button id="clear" onclick="clean()">clear</button>
+        </div>
+     
+        <div class="bodyin">
+            <table>
+                <tr>
+                    <td onclick="getnum('7')">7</td>
+                    <td onclick="getnum('8')">8</td>
+                    <td onclick="getnum('9')">9</td>
+                    <td onclick="getnum('*')">x</td>
+                    
+                </tr>
+                <tr>
+                    <td onclick="getnum('4')">4</td>
+                    <td onclick="getnum('5')">5</td>
+                    <td onclick="getnum('6')">6</td>
+                    <td onclick="getnum('-')">-</td>
+                    
+                </tr>
+                <tr>
+                    <td onclick="getnum('1')">1</td>
+                    <td onclick="getnum('2')">2</td>
+                    <td onclick="getnum('3')">3</td>
+                    <td onclick="getnum('+')">+</td>
+                    
+                </tr>
+                <tr>
+                    <td onclick="getnum('0')">0</td>
+                    <td onclick="getnum('.')">.</td>
+                    <td onclick="getnum('%')">%</td>
+                    <td onclick="getresult()">=</td>
+                    
+                </tr>
+            </table>
+
+        </div>
+
+
+
+
+
+
+
+    </div>
+
+
+</body>
+<script src="App.js"></script>
+
+</html>
